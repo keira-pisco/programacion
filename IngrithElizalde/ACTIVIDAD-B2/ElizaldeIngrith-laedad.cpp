@@ -2,39 +2,39 @@
 #include<iostream>//programa de Ingrith Gissela Elizalde Elizalde
 using namespace std;
 int main(){//inicio del programa
-	int edad,diaActual,mesActual,anoActual, anoNaci,mesNaci,diaNaci;
+	int ed,diac,meac,anac,dina,mena,anna;
 	
 	
 	cout<<"Ingrese el año actual"<<endl;
-	cin>>anoActual;
+	cin>>anac;
 	cout<<"Ingrese el mes actual"<<endl;
-	cin>>mesActual;
+	cin>>meac;
 	cout<<"Ingrese el dia atual"<<endl;
-	cin>>diaActual;
+	cin>>diac;
 	
 	cout<<endl;//paradarun espacio
 	cout<<endl;
 	
 	cout<<"Ingrese el ano de nacimiento."<<endl;
-	cin>>anoNaci;
+	cin>>anna;
 	cout<<"Ingrese el mes de nacimiento."<<endl;
-	cin>>mesNaci;
+	cin>>mena;
 	cout<<"Ingrese el dia de nacimiento"<<endl;
-	cin>>diaNaci;
-	if(mesNaci < mesActual){
+	cin>>dina;
+	if(mena < meac){
 		
-		edad=anoActual-anoNaci;
+		ed=anac-anna;
 		//condicionales
-	}else if(mesNaci<=mesActual)
-	   if(diaNaci<=diaActual){
+	}else if(mena<=meac)
+	   if(diac<=dina){
 		
-		edad=anoNaci-anoActual;
+		ed=anac-anna;
 		
-	}else if(mesNaci>mesActual& diaNaci>diaActual)
-	   {(edad=anoActual-anoNaci)-1;
+	}else if(mena>meac& dina>diac)
+	   {(ed=anac-anna)-1;
 	   }
 	
-	cout<< edad;
+	cout<<ed;
 	
 	
 	return 0;
