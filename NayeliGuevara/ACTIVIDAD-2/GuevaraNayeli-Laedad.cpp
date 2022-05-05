@@ -51,4 +51,3 @@ int main ()
  
     cout <<"la persona tiene "<<a<<" años "<<m<<" meses y "<<d<<" dias";
     return 0;
-}
