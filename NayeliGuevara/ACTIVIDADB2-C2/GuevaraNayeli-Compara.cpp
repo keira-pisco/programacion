@@ -32,7 +32,7 @@ cout<<"//================================================="<<endl;
 			cout<<ng_x<<"es mayor"<<endl;
 		}
 		else{
-			cout<<ng_y<<"es mayor"<<endl;
+			cout<<ng_y<<"es menor"<<endl;
 		} 
 	
 	return 0;
